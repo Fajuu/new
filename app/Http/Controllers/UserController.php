@@ -45,4 +45,10 @@ class UserController extends Controller
             'postinganDst' => $postinganDst,
         ]);
     }
+
+    public function warnet() {
+        return view('TampilanUser.warnet', [
+            'title' => 'Warnet'
+        ]);
+    }
 }
