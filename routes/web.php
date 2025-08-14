@@ -38,5 +38,6 @@ Route::redirect('/', '/home');
 Route::get('/home', [UserController::class, 'home'])->name('home');
 Route::get('/resume', [UserController::class, 'resume'])->name('resume');
 Route::get('/project', [UserController::class, 'project'])->name('project');
+Route::get('/warnet', [UserController::class, 'warnet'])->name('warnet');
 
 

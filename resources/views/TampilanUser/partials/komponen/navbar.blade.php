@@ -7,6 +7,7 @@
                 <li class="nav-item"><a class="nav-link {{ ($title == 'Home') ? 'active' : '' }}" href="{{ route('home') }}">Home</a></li>
                 <li class="nav-item"><a class="nav-link {{ ($title == 'Resume') ? 'active' : '' }}" href="{{ route('resume') }}">Resume</a></li>
                 <li class="nav-item"><a class="nav-link {{ ($title == 'Project') ? 'active' : '' }}" href="{{ route('project') }}">Projects</a></li>
+                <li class="nav-item"><a class="nav-link {{ ($title == 'Warnet') ? 'active' : '' }}" href="{{ route('warnet') }}">Warnet</a></li>
                 {{-- <li class="nav-item"><a class="nav-link" href="">Contact</a></li> --}}
             </ul>
         </div>
@@ -17,5 +18,6 @@
         <li class="breadcrumb-item"><a href="{{ route('home') }}" class="{{ ($title == 'Home') ? 'aktif' : '' }}">Home</a></li>
         <li class="breadcrumb-item"><a href="{{ route('resume') }}" class="{{ ($title == 'Resume') ? 'aktif' : '' }}">Resume</a></li>
         <li class="breadcrumb-item"><a href="{{ route('project') }}" class="{{ ($title == 'Project') ? 'aktif' : '' }}">Project</a></li>
+        <li class="breadcrumb-item"><a href="{{ route('warnet') }}" class="{{ ($title == 'Warnet') ? 'aktif' : '' }}">Warnet</a></li>
     </ol>
 </nav>
